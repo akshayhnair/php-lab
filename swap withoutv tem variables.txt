@@ -1,0 +1,19 @@
+x = int(input("enter the number"))
+y = int(input("enter the number"))
+
+x,y= y,x
+
+print('The value of x after swapping: ',  x)
+print('The value of y after swapping: ',  y)
+
+
+
+x = int(input("enter the number"))
+y = int(input("enter the number"))
+
+x=x+y
+y=x-y
+x=x-y
+
+print('The value of x after swapping: ',  x)
+print('The value of y after swapping: ',  y)
